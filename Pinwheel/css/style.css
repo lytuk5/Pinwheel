@@ -1,15 +1,14 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: white;
+.nen {
   background-image: url(./../images/backgroud.png);
 }
+
 .dau {
   display: flex;
-  padding: 20px 100px;
-  justify-content: space-between;
   align-items: center;
-  background-color: transparent;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
 .logo {
@@ -18,107 +17,32 @@ body {
   gap: 10px;
 }
 
-.logo a {
-  text-decoration: none;
-  font-size: 25px;
-  font-weight: bold;
-  color: black;
-}
-
 .main {
   display: flex;
-  justify-content: center;
-  padding: 5px;
-  margin: 10px;
+  align-items: center;
   gap: 30px;
   list-style: none;
-}
-
-.main a:hover,
-.main a.active {
-  color: rgb(201, 150, 56);
-}
-
-.main a {
-  text-decoration: none;
-  padding: 13px;
-  font-weight: 600;
-  font-size: 16px;
-  transition: color 0.3s;
-}
-
-.nut button {
-  background-color: white;
-  color: black;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.nut button:hover {
-  background-color: #e5e5e5;
-}
-body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: white;
-  background-image: url(./../images/backgroud.png);
-}
-.dau {
-  display: flex;
-  padding: 20px 100px;
-  justify-content: space-between;
-  align-items: center;
-  background-color: transparent;
+  padding: 0;
 }
 
-.logo {
+.nut {
   display: flex;
   align-items: center;
-  gap: 10px;
-}
-
-.logo a {
-  text-decoration: none;
-  font-size: 25px;
-  font-weight: bold;
-  color: black;
-}
-
-.main {
-  display: flex;
-  justify-content: center;
-  padding: 5px;
-  margin: 10px;
-  gap: 30px;
-  list-style: none;
-}
-
-.main a:hover,
-.main a.active {
-  color: rgb(201, 150, 56);
-}
-
-.main a {
-  text-decoration: none;
-  padding: 13px;
-  font-weight: 600;
-  font-size: 16px;
-  transition: color 0.3s;
 }
 
 .nut button {
-  background-color: white;
-  color: black;
-  padding: 10px 20px;
+  padding: 10px 24px;
+  border-radius: 9999px;
+  background-color: #ffffff;
+  color: #111111;
+  font-weight: 500;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   border: none;
-  border-radius: 20px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: all 0.2s ease;
 }
 
 .nut button:hover {
-  background-color: #e5e5e5;
+  box-shadow: none;
 }
