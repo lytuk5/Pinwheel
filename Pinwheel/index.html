@@ -1,0 +1,772 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinwheel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body class="nen">
+    <section>
+      <div class="dau">
+        <div class="logo">
+          <a href="#" class="font-semibold"
+            ><img src="./images/icon/logo.svg"
+          /></a>
+        </div>
+        <ul class="main">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">How It Works</a></li>
+          <li class="relative group">
+            <a
+              href="#"
+              class="inline-flex items-center gap-1 group-hover:text-[#FE6019] group-focus-within:text-[#FE6019]"
+            >
+              Pages
+              <i class="fa-solid fa-chevron-down text-[10px]"></i>
+            </a>
+            <!-- menu con của Pages -->
+            <div
+              class="invisible absolute left-0 top-full z-50 pt-4 opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100"
+            >
+              <ul
+                class="min-w-[225px] rounded-lg border border-[#ffd5c7] bg-white px-5 py-3 shadow-[0_15px_40px_rgba(0,0,0,0.08)]"
+                style="list-style: none; margin: 0"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="block whitespace-nowrap py-2 text-[15px] font-medium text-[#222] transition-colors hover:text-[#FE6019]"
+                    >Career</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block whitespace-nowrap py-2 text-[15px] font-medium text-[#222] transition-colors hover:text-[#FE6019]"
+                    >Career Single</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block whitespace-nowrap py-2 text-[15px] font-medium text-[#222] transition-colors hover:text-[#FE6019]"
+                    >Integrations</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block whitespace-nowrap py-2 text-[15px] font-medium text-[#222] transition-colors hover:text-[#FE6019]"
+                    >Integration Single</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block whitespace-nowrap py-2 text-[15px] font-medium text-[#222] transition-colors hover:text-[#FE6019]"
+                    >Pricing</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block whitespace-nowrap py-2 text-[15px] font-medium text-[#222] transition-colors hover:text-[#FE6019]"
+                    >Changelogs</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="block whitespace-nowrap py-2 text-[15px] font-medium text-[#222] transition-colors hover:text-[#FE6019]"
+                    >Terms &amp; Conditions</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="nut">
+          <button>Sign Up Now</button>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="relative mx-auto mt-16 flex max-w-[80%] flex-col items-center justify-between gap-[60px] px-5 text-xl md:mt-24 md:flex-row"
+    >
+      <div class="flex-1">
+        <h1 class="mb-6 text-[40px] font-bold leading-tight">
+          Scale design &amp; dev operations with Avocode Enterprise
+        </h1>
+        <p class="mb-10 text-gray-500">
+          A fully integrated suite of authentication &amp; authoriz products,
+          Stytch’s platform removes the headache of.
+        </p>
+        <button
+          class="cursor-pointer rounded-full border-none bg-white px-8 py-4 text-base font-medium text-[#111] shadow-[0_15px_35px_rgba(0,0,0,0.12)] transition-shadow duration-300 hover:shadow-none"
+        >
+          Download The Theme
+        </button>
+      </div>
+
+      <div class="flex-1">
+        <img
+          src="./images/anh_1.png"
+          class="ml-auto block h-auto w-full max-w-[450px]"
+        />
+      </div>
+
+      <!-- hình trang trí banner -->
+      <img
+        src="./images/banner-shape.svg"
+        alt=""
+        class="pointer-events-none absolute bottom-0 right-0 -z-10 w-[60%] max-w-[600px]"
+      />
+    </section>
+
+    <section>
+      <div class="grid grid-cols-2 items-center gap-8 p-24">
+        <h2 class="text-4xl font-bold">
+          The Highlighting Part Of Our Solution
+        </h2>
+        <p
+          class="max-w-[600px] text-lg leading-relaxed text-gray-500 lg:justify-self-end"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas
+          Werat viverra id et aliquet. vulputate egestas sollicitudin .
+        </p>
+      </div>
+    </section>
+
+    <section class="relative mx-auto max-w-[1200px] px-6 pb-16 md:px-8">
+      <!-- hình trang trí features -->
+      <img
+        src="./images/icon/feature-shape.svg"
+        alt=""
+        class="pointer-events-none absolute left-0 top-0 -z-10"
+      />
+      <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <article
+          class="rounded-lg bg-white p-5 shadow-[0_12px_30px_-8px_rgba(0,0,0,0.12)]"
+        >
+          <h3 class="text-xl font-bold text-[#1c1c1c]">Live Caption</h3>
+          <p class="mt-3 text-sm leading-5 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+          <img
+            src="./images/icon/feature-icon-1.svg"
+            alt=""
+            class="mt-4 h-6 w-6"
+          />
+        </article>
+
+        <article
+          class="rounded-lg bg-white p-5 shadow-[0_12px_30px_-8px_rgba(0,0,0,0.12)]"
+        >
+          <h3 class="text-xl font-bold text-[#1c1c1c]">Smart Reply</h3>
+          <p class="mt-3 text-sm leading-5 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+          <img
+            src="./images/icon/feature-icon-2.svg"
+            alt=""
+            class="mt-4 h-6 w-6"
+          />
+        </article>
+
+        <article
+          class="rounded-lg bg-white p-5 shadow-[0_12px_30px_-8px_rgba(0,0,0,0.12)]"
+        >
+          <h3 class="text-xl font-bold text-[#1c1c1c]">Sound Amplifier</h3>
+          <p class="mt-3 text-sm leading-5 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+          <img
+            src="./images/icon/feature-icon-3.svg"
+            alt=""
+            class="mt-4 h-6 w-6"
+          />
+        </article>
+
+        <article
+          class="rounded-lg bg-white p-5 shadow-[0_12px_30px_-8px_rgba(0,0,0,0.12)]"
+        >
+          <h3 class="text-xl font-bold text-[#1c1c1c]">Gesture Navigation</h3>
+          <p class="mt-3 text-sm leading-5 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+          <img
+            src="./images/icon/feature-icon-4.svg"
+            alt=""
+            class="mt-4 h-6 w-6"
+          />
+        </article>
+
+        <article
+          class="rounded-lg bg-white p-5 shadow-[0_12px_30px_-8px_rgba(0,0,0,0.12)]"
+        >
+          <h3 class="text-xl font-bold text-[#1c1c1c]">Dark Theme</h3>
+          <p class="mt-3 text-sm leading-5 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+          <img
+            src="./images/icon/feature-icon-5.svg"
+            alt=""
+            class="mt-4 h-6 w-6"
+          />
+        </article>
+
+        <article
+          class="rounded-lg bg-white p-5 shadow-[0_12px_30px_-8px_rgba(0,0,0,0.12)]"
+        >
+          <h3 class="text-xl font-bold text-[#1c1c1c]">Privacy Controls</h3>
+          <p class="mt-3 text-sm leading-5 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+          <img
+            src="./images/icon/feature-icon-6.svg"
+            alt=""
+            class="mt-4 h-6 w-6"
+          />
+        </article>
+
+        <article
+          class="rounded-lg bg-white p-5 shadow-[0_12px_30px_-8px_rgba(0,0,0,0.12)]"
+        >
+          <h3 class="text-xl font-bold text-[#1c1c1c]">Location Controls</h3>
+          <p class="mt-3 text-sm leading-5 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+          <img
+            src="./images/icon/feature-icon-7.svg"
+            alt=""
+            class="mt-4 h-6 w-6"
+          />
+        </article>
+        <article
+          class="rounded-lg bg-white p-5 shadow-[0_12px_30px_-8px_rgba(0,0,0,0.12)]"
+        >
+          <h3 class="text-xl font-bold text-[#1c1c1c]">Security Updates</h3>
+          <p class="mt-3 text-sm leading-5 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+          <img
+            src="./images/icon/feature-icon-8.svg"
+            alt=""
+            class="mt-4 h-6 w-6"
+          />
+        </article>
+        <article
+          class="rounded-lg bg-white p-5 shadow-[0_12px_30px_-8px_rgba(0,0,0,0.12)]"
+        >
+          <h3 class="text-xl font-bold text-[#1c1c1c]">Focus Mode</h3>
+          <p class="mt-3 text-sm leading-5 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+          <img
+            src="./images/icon/feature-icon-9.svg"
+            alt=""
+            class="mt-4 h-6 w-6"
+          />
+        </article>
+        <article
+          class="rounded-lg bg-white p-5 shadow-[0_12px_30px_-8px_rgba(0,0,0,0.12)]"
+        >
+          <h3 class="text-xl font-bold text-[#1c1c1c]">Family Link</h3>
+          <p class="mt-3 text-sm leading-5 text-gray-500">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+          <img
+            src="./images/icon/feature-icon-10.svg"
+            alt=""
+            class="mt-4 h-6 w-6"
+          />
+        </article>
+      </div>
+    </section>
+
+    <section
+      class="mx-auto flex max-w-[80%] flex-col items-center justify-between gap-[60px] px-5 pb-16 md:flex-row md:pb-24"
+    >
+      <div class="flex-1">
+        <h2
+          class="mb-6 font-['Merriweather',serif] text-4xl font-bold leading-[1.1] text-gray-900 md:text-5xl"
+        >
+          Prevent failure from to impacting your reputation
+        </h2>
+        <p class="mb-8 text-lg leading-relaxed text-gray-500">
+          Our platform helps you build secure onboarding authentication
+          experiences that retain and engage your users. We build the
+          infrastructure, you can.
+        </p>
+        <!-- danh sách lựa chọn -->
+        <ul class="space-y-3 text-lg text-gray-900">
+          <li>
+            <button
+              onclick="changeImage('./images/anh_2.png', this)"
+              class="tab-btn flex w-full items-center gap-3 bg-[#fbbb9f] px-5 py-4 rounded-xl text-left transition-all duration-200 cursor-pointer"
+            >
+              <img src="./images/icon/drop.svg" alt="" class="h-6 w-6" />
+              Habit building essential choose habit
+            </button>
+          </li>
+          <li>
+            <button
+              onclick="changeImage('./images/anh_3.png', this)"
+              class="tab-btn flex w-full items-center gap-3 bg-transparent hover:bg-gray-100 px-5 py-4 rounded-xl text-left transition-all duration-200 cursor-pointer"
+            >
+              <img src="./images/icon/brain.svg" alt="" class="h-6 w-6" />
+              Get an overview of Habit Calendars.
+            </button>
+          </li>
+          <li>
+            <button
+              onclick="changeImage('./images/anh_1.png', this)"
+              class="tab-btn flex w-full items-center gap-3 bg-transparent hover:bg-gray-100 px-5 py-4 rounded-xl text-left transition-all duration-200 cursor-pointer"
+            >
+              <img src="./images/icon/timer.svg" alt="" class="h-6 w-6" />
+              Start building with Habitify platform
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- chuyển ảnh -->
+      <div class="relative flex-1">
+        <button
+          type="button"
+          id="doi-anh"
+          class="block w-full cursor-pointer rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-[#fbbb9f]"
+        >
+          <img
+            id="anh-chuyen"
+            src="./images/anh_2.png"
+            class="w-full transition-opacity duration-300 motion-reduce:transition-none"
+          />
+        </button>
+        <!-- hình trang trí -->
+        <img
+          src="./images/shape.svg"
+          alt=""
+          class="pointer-events-none absolute bottom-0 right-0 -z-10"
+        />
+      </div>
+    </section>
+
+    <section class="flex items-center gap-12 max-w-7xl mx-auto px-6">
+      <!-- hình ảnh bên trái -->
+      <div class="flex-1 flex justify-center">
+        <img src="./images/anh_3.png" class="w-full max-w-lg object-contain" />
+      </div>
+
+      <!-- chữ bên phải -->
+      <div class="flex-1">
+        <h3
+          class="mb-4 font-['Merriweather',serif] text-2xl font-bold leading-[1.1] text-gray-900 md:text-4xl"
+        >
+          Accept payments any country in this whole universe
+        </h3>
+        <p class="mb-6 text-base leading-relaxed text-gray-500">
+          Donec sollicitudin molestie malesuada. Donec sollicitudin molestie
+          malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies
+          ligula sed
+        </p>
+        <ul class="space-y-2">
+          <li class="flex items-center gap-3 py-2 text-gray-700 font-medium">
+            <span
+              class="w-5 h-5 bg-orange-500 rounded-full flex items-center justify-center text-white text-xs shrink-0"
+              >✓</span
+            >
+            Supporting more than 119 country world
+          </li>
+          <li class="flex items-center gap-3 py-2 text-gray-700 font-medium">
+            <span
+              class="w-5 h-5 bg-orange-500 rounded-full flex items-center justify-center text-white text-xs shrink-0"
+              >✓</span
+            >
+            Open transaction with more than currencies
+          </li>
+          <li class="flex items-center gap-3 py-2 text-gray-700 font-medium">
+            <span
+              class="w-5 h-5 bg-orange-500 rounded-full flex items-center justify-center text-white text-xs shrink-0"
+              >✓</span
+            >
+            Customer Service with 79 languages
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="py-14">
+      <div class="mx-auto w-full max-w-[1210px] px-4">
+        <div class="-mx-6 mt-12 flex flex-wrap items-center lg:mt-0">
+          <div class="w-full flex-none px-6 lg:order-2 lg:w-7/12">
+            <div class="video relative pb-5 pr-9">
+              <div class="video-thumbnail overflow-hidden rounded-2xl">
+                <img
+                  class="w-full object-contain"
+                  src="images/intro-thumbnail.png"
+                  alt=""
+                />
+                <button
+                  class="video-play-btn absolute inset-0 m-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#FE6019] shadow-[0_0_0_10px_rgba(254,96,25,0.25)] transition-transform duration-200 hover:scale-[1.08]"
+                >
+                  <img class="ml-1" src="images/icons/play-icon.svg" alt="" />
+                </button>
+              </div>
+              <div
+                class="video-player absolute left-0 top-0 z-10 hidden h-full w-full"
+              >
+                <iframe
+                  class="h-full w-full"
+                  title="Video"
+                  frameborder="0"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                  data-src="https://www.youtube.com/embed/g3-VxLQO7do?autoplay=1&rel=0"
+                ></iframe>
+              </div>
+              <img
+                class="intro-shape absolute bottom-0 right-0 -z-[1]"
+                src="images/shape.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="mt-6 w-full flex-none px-6 lg:order-1 lg:mt-0 lg:w-5/12">
+            <div class="text-container">
+              <h2
+                class="font-['Merriweather',serif] text-[1.926rem] font-bold leading-tight text-[#222] md:text-[2.408rem] lg:text-4xl"
+              >
+                Accountability that works for you
+              </h2>
+              <p class="mt-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                egestas Werat viverra id et aliquet. vulputate egestas
+                sollicitudin .
+              </p>
+              <button
+                class="inline-block cursor-pointer rounded-full bg-white px-[33px] py-[15px] text-center text-sm font-medium leading-[22px] text-[#222] shadow-[0_15px_30px_rgba(0,0,0,0.1)] transition duration-200 first-letter:uppercase hover:-translate-y-0.5 mt-6"
+              >
+                know about us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-14">
+      <div class="mx-auto w-full max-w-[1210px] px-4">
+        <div class="-mx-4 flex flex-wrap justify-between">
+          <div class="w-full flex-none px-4 lg:w-6/12">
+            <h2
+              class="font-['Merriweather',serif] text-[1.926rem] font-bold leading-tight text-[#222] md:text-[2.408rem]"
+            >
+              Our customers have nice things to say about us
+            </h2>
+          </div>
+          <div class="w-full flex-none px-4 lg:w-4/12">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+              egestas Werat viverra id et aliquet. vulputate egestas
+              sollicitudin .
+            </p>
+          </div>
+        </div>
+        <div class="-mx-4 mt-10 flex flex-wrap">
+          <div class="w-full flex-none px-4">
+            <div
+              class="swiper reviews-carousel relative box-border cursor-grab touch-pan-y select-none overflow-hidden pb-14 pt-[50px] [&.is-dragging]:cursor-grabbing [&_img]:[-webkit-user-drag:none]"
+            >
+              <div class="swiper-wrapper flex will-change-transform">
+                <div class="swiper-slide relative box-border flex-none">
+                  <div
+                    class="box-border h-full rounded-xl bg-white px-3 pb-16 text-center shadow-[0_10px_40px_rgba(0,0,0,0.06)]"
+                  >
+                    <div
+                      class="mx-auto -mt-[45px] mb-5 box-border h-[90px] w-[90px] rounded-full bg-gradient-to-b from-[#FA709A] to-[#FEE140] p-[3px]"
+                    >
+                      <img
+                        class="h-full w-full rounded-full bg-[#e8e8e8] object-cover"
+                        src="images/users/user-5.png"
+                        alt=""
+                      />
+                    </div>
+                    <h4
+                      class="mb-2 font-['Merriweather',serif] text-2xl font-bold leading-tight text-[#222]"
+                    >
+                      Courtney Henry
+                    </h4>
+                    <p class="mb-4 text-[#666]">microsoft corp</p>
+                    <p>
+                      Our platform helps build secure onboarding authentica
+                      experiences &amp; engage your users. We build .
+                    </p>
+                    <div
+                      class="review-rating mt-6 flex items-center justify-center space-x-2.5"
+                    >
+                      <img src="images/icon/star.svg" alt="" />
+                      <img src="images/icon/star.svg" alt="" />
+                      <img src="images/icon/star.svg" alt="" />
+                      <img src="images/icon/star.svg" alt="" />
+                      <img src="images/icon/star-white.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide relative box-border flex-none">
+                  <div
+                    class="box-border h-full rounded-xl bg-white px-3 pb-16 text-center shadow-[0_10px_40px_rgba(0,0,0,0.06)]"
+                  >
+                    <div
+                      class="mx-auto -mt-[45px] mb-5 box-border h-[90px] w-[90px] rounded-full bg-gradient-to-b from-[#FA709A] to-[#FEE140] p-[3px]"
+                    >
+                      <img
+                        class="h-full w-full rounded-full bg-[#e8e8e8] object-cover"
+                        src="images/users/user-2.png"
+                        alt=""
+                      />
+                    </div>
+                    <h4
+                      class="mb-2 font-['Merriweather',serif] text-2xl font-bold leading-tight text-[#222]"
+                    >
+                      Ronald Richards
+                    </h4>
+                    <p class="mb-4 text-[#666]">meta limited</p>
+                    <p>
+                      Our platform helps build secure onboarding authentica
+                      experiences &amp; engage your users. We build .
+                    </p>
+                    <div
+                      class="review-rating mt-6 flex items-center justify-center space-x-2.5"
+                    >
+                      <img src="images/icon/star.svg" alt="" />
+                      <img src="images/icon/star.svg" alt="" />
+                      <img src="images/icon/star.svg" alt="" />
+                      <img src="images/icon/star.svg" alt="" />
+                      <img src="images/icon/star-white.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide relative box-border flex-none">
+                  <div
+                    class="box-border h-full rounded-xl bg-white px-3 pb-16 text-center shadow-[0_10px_40px_rgba(0,0,0,0.06)]"
+                  >
+                    <div
+                      class="mx-auto -mt-[45px] mb-5 box-border h-[90px] w-[90px] rounded-full bg-gradient-to-b from-[#FA709A] to-[#FEE140] p-[3px]"
+                    >
+                      <img
+                        class="h-full w-full rounded-full bg-[#e8e8e8] object-cover"
+                        src="images/users/user-6.png"
+                        alt=""
+                      />
+                    </div>
+                    <h4
+                      class="mb-2 font-['Merriweather',serif] text-2xl font-bold leading-tight text-[#222]"
+                    >
+                      Bessie Cooper
+                    </h4>
+                    <p class="mb-4 text-[#666]">apple inc ltd</p>
+                    <p>
+                      Our platform helps build secure onboarding authentica
+                      experiences &amp; engage your users. We build .
+                    </p>
+                    <div
+                      class="review-rating mt-6 flex items-center justify-center space-x-2.5"
+                    >
+                      <img src="images/icon/star.svg" alt="" />
+                      <img src="images/icon/star.svg" alt="" />
+                      <img src="images/icon/star.svg" alt="" />
+                      <img src="images/icon/star.svg" alt="" />
+                      <img src="images/icon/star-white.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-pagination reviews-carousel-pagination absolute inset-x-0 bottom-0 text-center leading-[0] [&>span]:mx-1 [&>span]:inline-block [&>span]:h-3.5 [&>span]:w-3.5 [&>span]:cursor-pointer [&>span]:rounded-full [&>span]:bg-[#E6E6E6] [&>span]:transition-colors [&>span]:duration-200 [&>.swiper-pagination-bullet-active]:bg-[#FE6019]"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="px-5 py-20 xl:py-[120px]">
+      <div class="mx-auto w-full max-w-[1210px] px-4">
+        <div
+          class="-mx-4 flex flex-wrap justify-center rounded-b-[80px] rounded-t-[20px] bg-[linear-gradient(185deg,#FA709A_0%,#FEE140_124%)] px-[30px] pb-[75px] pt-16"
+        >
+          <div class="w-full flex-none px-4 lg:w-11/12">
+            <div class="-mx-4 flex flex-wrap">
+              <div class="w-full flex-none px-4 lg:w-7/12">
+                <h2
+                  class="font-['Merriweather',serif] text-[2.408rem] font-bold leading-tight text-white md:text-[3.01rem]"
+                >
+                  Helping teams in the world with focus
+                </h2>
+                <a
+                  class="inline-block cursor-pointer rounded-full bg-white px-[33px] py-[15px] text-center text-sm font-medium leading-[22px] text-[#222] shadow-[0_15px_30px_rgba(0,0,0,0.1)] transition duration-200 first-letter:uppercase hover:-translate-y-0.5 mt-8"
+                  href="#"
+                  >Download The Theme</a
+                >
+              </div>
+              <div class="mt-8 w-full flex-none px-4 lg:mt-0 lg:w-5/12">
+                <p class="text-white">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+                  egestas Werat viverra id et aliquet. vulputate egestas
+                  sollicitudin .
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="bg-[#EFEFEF] pt-20 text-neutral-500">
+      <!-- 4 cột -->
+      <div
+        class="max-w-screen-xl mx-auto px-4 grid sm:grid-cols-2 lg:grid-cols-4 gap-10"
+      >
+        <!-- Cột 1: logo (bấm vào quay về đầu trang) + mô tả -->
+        <div>
+          <a href="#">
+            <img
+              src="https://capstone-tailwind1.vercel.app/images/logo.svg"
+              alt="Pinwheel"
+              class="h-10"
+            />
+          </a>
+          <p class="mt-6 max-w-xs">
+            Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo
+            tellus, sed condimentum volutpat.
+          </p>
+        </div>
+
+        <!-- Cột 2: email + 4 icon mạng xã hội -->
+        <div>
+          <h6 class="text-lg font-semibold text-neutral-900">Socials</h6>
+          <p class="mt-8">themefisher@gmail.com</p>
+
+          <ul class="flex gap-6 mt-8">
+            <li>
+              <a
+                href="#"
+                aria-label="Facebook"
+                class="w-14 h-14 flex items-center justify-center rounded-full bg-white text-xl text-neutral-900 hover:bg-gradient-to-r hover:from-yellow-400 hover:to-orange-400 hover:text-white"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                aria-label="Twitter"
+                class="w-14 h-14 flex items-center justify-center rounded-full bg-white text-xl text-neutral-900 hover:bg-gradient-to-r hover:from-yellow-400 hover:to-orange-400 hover:text-white"
+              >
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                aria-label="LinkedIn"
+                class="w-14 h-14 flex items-center justify-center rounded-full bg-white text-xl text-neutral-900 hover:bg-gradient-to-r hover:from-yellow-400 hover:to-orange-400 hover:text-white"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                aria-label="Skype"
+                class="w-14 h-14 flex items-center justify-center rounded-full bg-white text-xl text-neutral-900 hover:bg-gradient-to-r hover:from-yellow-400 hover:to-orange-400 hover:text-white"
+              >
+                <i class="fa-brands fa-skype"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Cột 3: link nhanh -->
+        <div>
+          <h6 class="text-lg font-semibold text-neutral-900">Quick Links</h6>
+          <ul class="mt-8 space-y-2">
+            <li>
+              <a href="about.html" class="hover:text-[#FE6019] hover:underline"
+                >About</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-[#FE6019] hover:underline"
+                >Category</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-[#FE6019] hover:underline"
+                >Testimonial</a
+              >
+            </li>
+            <li>
+              <a
+                href="contact.html"
+                class="hover:text-[#FE6019] hover:underline"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Cột 4: địa chỉ -->
+        <div>
+          <h6 class="text-lg font-semibold text-neutral-900">
+            Location &amp; Contact
+          </h6>
+          <p class="mt-8">2118 Thornridge Cir. Syracuse, Connecticut 35624</p>
+          <p>(704) 555-0127</p>
+        </div>
+      </div>
+
+      <!-- Đường kẻ + dòng bản quyền -->
+      <div class="max-w-screen-xl mx-auto px-4 mt-16">
+        <p class="py-8 text-center border-t border-neutral-200">
+          Designed And Developed by Themefisher
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script src="./java/main.js"></script>
+  </body>
+</html>
