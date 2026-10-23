@@ -74,3 +74,97 @@
 .nut button:hover {
   box-shadow: none;
 }
+
+/* Nút hamburger: chỉ hiện trên màn hình nhỏ */
+.menu-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 9999px;
+  background-color: #ffffff;
+  color: #111111;
+  font-size: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+/* Laptop nhỏ: thu gọn khoảng cách để menu không tràn */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .dau {
+    max-width: 92%;
+  }
+
+  .main {
+    gap: 18px;
+  }
+}
+
+/* Máy tính bảng và điện thoại: menu thu vào nút hamburger */
+@media (max-width: 1023px) {
+  .dau {
+    flex-wrap: wrap;
+    max-width: 92%;
+    gap: 12px;
+  }
+
+  .logo {
+    order: 1;
+  }
+
+  .nut {
+    order: 2;
+    margin-left: auto;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+    order: 3;
+  }
+
+  .main {
+    display: none;
+    order: 4;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    padding: 8px 20px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+  }
+
+  .main.open {
+    display: flex;
+  }
+
+  .main > li {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  /* Menu con của Pages: hiện sẵn, nằm trong dòng thay vì nổi lên */
+  .main > li > div {
+    position: static;
+    visibility: visible;
+    opacity: 1;
+    padding-top: 4px;
+  }
+
+  .main > li > div > ul {
+    min-width: 0;
+    padding: 0 0 0 14px;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .nut button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}

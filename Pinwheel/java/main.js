@@ -172,3 +172,33 @@ document.querySelectorAll(".video-play-btn").forEach(function (btn) {
   layout();
   updateDots();
 })();
+
+// Menu hamburger trên màn hình nhỏ
+(function () {
+  var toggle = document.getElementById("menu-toggle");
+  var menu = document.getElementById("menu-chinh");
+  if (!toggle || !menu) return;
+
+  function setOpen(open) {
+    menu.classList.toggle("open", open);
+    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    toggle.setAttribute("aria-label", open ? "Đóng menu" : "Mở menu");
+    toggle.innerHTML = open
+      ? '<i class="fa-solid fa-xmark"></i>'
+      : '<i class="fa-solid fa-bars"></i>';
+  }
+
+  toggle.addEventListener("click", function () {
+    setOpen(!menu.classList.contains("open"));
+  });
+
+  // Bấm vào một mục menu thì đóng menu lại
+  menu.addEventListener("click", function (e) {
+    if (e.target.closest("a")) setOpen(false);
+  });
+
+  // Quay lại màn hình lớn thì đóng menu để không bị kẹt trạng thái
+  window.addEventListener("resize", function () {
+    if (window.innerWidth >= 1024) setOpen(false);
+  });
+})();
